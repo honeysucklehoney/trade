@@ -1,2 +1,1 @@
-# trade
-MK's Web
+https://honeysucklehoney.github.io/trade/
