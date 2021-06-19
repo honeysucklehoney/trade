@@ -9,11 +9,11 @@
 html{
 
   width: 100%;
-  height: 900px;
+  height: 1000px;
   font-family: tag_font;
   color: black;
-  overflow: auto;
-overflow: hidden;
+  overflow: hidden;
+  overflow: scroll;
 }
 
 body{
@@ -99,9 +99,9 @@ margin-top: 0%;
   flex: 50%;
   margin-left: 5%;
   margin-right: 5%;
+  padding-left: 10px;
   position: relative;
   z-index: +2;
-  overflow: visible;
   background-color: white;
 
 }
@@ -123,7 +123,7 @@ opacity: 40%;
   display: grid;
   position: absolute;
   grid-template-columns: auto auto;
-  width: 15%;
+  width: 14%;
 
 
 
@@ -354,41 +354,6 @@ font-family: helvetica;
 
 }
 
-/* .column_projects img  {
-
-  width: 80%;
-  padding: 0;
-  margin: 0;
- */
-
-
-/* width: 80%;
-margin-right: 10%;
-margin-left: 10%;
-margin-top: 10px;
-padding: 10px; */
-
-
-
-/* .column_projects:hover #hover_photo {
-
-visibility: visible;
-
-} */
-
-/* .portait {
-
-  grid-row-start: 1;
-  grid-row-end: 3;
-  grid-column-start: 2;
-
-}
-
-.portait img {
-
-width: 80%; */
-
-}
 
 #hover_photo {
 
@@ -422,9 +387,11 @@ table {
 width:100px;
 
 }
-}
 
-/* gallery style settings for photos */
+
+
+
+
 
 
 {
@@ -447,11 +414,8 @@ scroll-snap-type: x mandatory;
 scroll-behavior: smooth;
 -webkit-overflow-scrolling: touch;
 
-/*
-scroll-snap-points-x: repeat(300px);
-scroll-snap-type: mandatory;
-*/
 }
+
 .slides::-webkit-scrollbar {
 width: 10px;
 height: 10px;
@@ -533,4 +497,5 @@ padding-right: 20px;
 
 body {
   align-items: center;
+  overflow: scroll;
 }
