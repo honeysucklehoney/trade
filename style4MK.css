@@ -13,8 +13,8 @@ html{
 
   width: 100%;
   height: 1000px;
-  font-family: tag_font;
-  color: black;
+  font-family: arial;
+  color: blue;
   overflow: hidden;
   overflow: scroll;
 }
@@ -33,6 +33,19 @@ body{
   padding: 0px;
 }
 
+h1 {
+
+  font-size: 30px;
+  color: blue;
+}
+
+.homepage {
+
+  background-image: url("Web drawings/spidey_web.jpg");
+
+
+}
+
 pre{
 
 font-size: 11px;
@@ -42,6 +55,7 @@ font-family: helvetica;
 text-decoration: none;
 color: black;
 text-align: center;
+vertical-align:top;
 margin-left: 0px;
 margin-right: 0px;
 margin-top: 0px;
@@ -128,8 +142,45 @@ top: 10px;
 height: 300px;
 font-size: 10px;
 
+}
+
+.project_grid{
+  display: flex;
+  grid-template-columns: auto auto;
+  padding-left: 10%;
+  padding-right: 20%;
+  z-index: -1;
 
 }
+
+.project_col2 img {
+
+width: 100%;
+padding: 0;
+margin: 0px;
+margin-top: 10px;
+}
+
+.project_col2{
+    flex: 30%;
+    padding:10px;
+  }
+
+
+.project_col {
+  flex: 30%;
+  padding:10px;
+}
+
+.project_col img {
+
+width: 100%;
+padding: 0;
+margin: 0px;
+margin-top: 125px;
+}
+
+
 
 .welcome_image{
 width: 90%;
@@ -173,7 +224,7 @@ margin-top: 0%;
   padding-left: 10px;
   position: relative;
   z-index: +2;
-  background-color: white;
+  /* background-color: white; */
 
 }
 
@@ -183,6 +234,7 @@ width: 100%;
 
 
 }
+.
 
 .not_todayyy:hover{
 
@@ -203,23 +255,23 @@ opacity: 40%;
 
 .column_bio img{
 
-  width: 80%;
+  width: 70%;
   padding: 0;
-  margin: 0;
-
+  margin-top: 125px;
 
 }
 
 .column_bio  {
   flex: 50%;
-
 }
 
 .grid_large {
 
   display: flex;
   grid-template-columns: auto auto;
-  padding-left: 20%;
+  padding-left: 10%;
+  padding-right: 10%;
+  z-index: -1;
 
 
 }
@@ -340,13 +392,14 @@ margin: 0;
   }
 }
 
-/* p{
+figcaption{
+color: BLACK;
+display: block;
+text-align: center;
+font-size: 12px;
+padding: 5px;
 
-color: black;
-font-size: 18px;
-float: right;
-
-} */
+}
 
 .process {
 
